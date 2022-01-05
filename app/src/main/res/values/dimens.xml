@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="profile_layout_settings_margin_size">8dp</dimen>
+    <dimen name="cardview_elevation">6dp</dimen>
+    <dimen name="profile_options_list_layout_margin">6dp</dimen>
+    <dimen name="image_card_stroke_width_size">4dp</dimen>
+    <dimen name="image_width">100dp</dimen>
+    <dimen name="image_height">100dp</dimen>
+    <dimen name="textview_name_text_size">18sp</dimen>
+    <dimen name="profilepage_options_card_view_top_margin">1dp</dimen>
+    <dimen name="profilepage_options_card_view_padding">12dp</dimen>
+    <dimen name="profilepage_options_card_view_drawable_padding">12dp</dimen>
+    <dimen name="profile_pic_card_corner_radius">100dp</dimen>
+    <dimen name="want_done_divider_margin">8dp</dimen>
+    <dimen name="profile_name_margin">8dp</dimen>
+    <dimen name="profile_want_done_container_margin">8dp</dimen>
+    <dimen name="profile_want_done_container_padding">8dp</dimen>
+    <dimen name="profilepic_cardview_elevation">8dp</dimen>
+    <dimen name="cardview_radius_0dp">0dp</dimen>
+    <dimen name="profile_options_list_layout_height_0dp">0dp</dimen>
+    <dimen name="profile_cardview_background_shape_left_radius">16dp</dimen>
+    <dimen name="profile_cardview_background_shape_right_radius">16dp</dimen>
+</resources>

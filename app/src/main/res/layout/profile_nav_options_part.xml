@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/profile_option_part"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/profile_nav_options_background_color"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/profilepage_options_card_view_top_margin"
+                app:cardCornerRadius="@dimen/cardview_radius_0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/textview_order"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/profilepage_options_card_view_drawable_padding"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/profilepage_options_card_view_padding"
+                    android:text="@string/order"
+                    android:background="?attr/selectableItemBackground"
+                    app:cardUseCompatPadding="true"
+                    app:drawableEndCompat="@drawable/ic_baseline_chevron_right_24"
+                    app:drawableStartCompat="@drawable/ic_baseline_order_24" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/profilepage_options_card_view_top_margin"
+                app:cardCornerRadius="@dimen/cardview_radius_0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/textview_like"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/profilepage_options_card_view_drawable_padding"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/profilepage_options_card_view_padding"
+                    android:text="@string/like"
+                    android:background="?attr/selectableItemBackground"
+                    app:drawableEndCompat="@drawable/ic_baseline_chevron_right_24"
+                    app:drawableStartCompat="@drawable/ic_baseline_like_24" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/profilepage_options_card_view_top_margin"
+                app:cardCornerRadius="@dimen/cardview_radius_0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/textview_comment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/profilepage_options_card_view_drawable_padding"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/profilepage_options_card_view_padding"
+                    android:text="@string/comment"
+                    android:background="?attr/selectableItemBackground"
+                    app:cardUseCompatPadding="true"
+                    app:drawableEndCompat="@drawable/ic_baseline_chevron_right_24"
+                    app:drawableStartCompat="@drawable/ic_baseline_message_24" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/profilepage_options_card_view_top_margin"
+                app:cardCornerRadius="@dimen/cardview_radius_0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/textview_download"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/profilepage_options_card_view_drawable_padding"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/profilepage_options_card_view_padding"
+                    android:text="@string/download"
+                    android:background="?attr/selectableItemBackground"
+                    app:cardUseCompatPadding="true"
+                    app:drawableEndCompat="@drawable/ic_baseline_chevron_right_24"
+                    app:drawableStartCompat="@drawable/ic_baseline_download_24" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/profilepage_options_card_view_top_margin"
+                app:cardCornerRadius="@dimen/cardview_radius_0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/textview_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/profilepage_options_card_view_drawable_padding"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/profilepage_options_card_view_padding"
+                    android:text="@string/edit"
+                    android:background="?attr/selectableItemBackground"
+                    app:cardUseCompatPadding="true"
+                    app:drawableEndCompat="@drawable/ic_baseline_chevron_right_24"
+                    app:drawableStartCompat="@drawable/ic_baseline_edit_24" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

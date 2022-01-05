@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ProfilePageExample</string>
+    <string name="order">Order</string>
+    <string name="like">Like</string>
+    <string name="comment">Comment</string>
+    <string name="download">Download</string>
+    <string name="John">John</string>
+    <string name="want_22">22 Want</string>
+    <string name="done_45">45 Done</string>
+    <string name="edit">Edit</string>
+    <string name="order_pressed">Order pressed</string>
+    <string name="like_pressed">Like pressed</string>
+    <string name="comment_pressed">Comment pressed</string>
+    <string name="download_pressed">Download pressed</string>
+    <string name="edit_pressed">Edit pressed</string>
+</resources>
